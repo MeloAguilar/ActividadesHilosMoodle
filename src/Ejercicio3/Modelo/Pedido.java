@@ -17,7 +17,7 @@ public class Pedido {
     }
 
     private void generarListaProductos() {
-        int cantidadProductos = (int) (Math.random() * 25);
+        int cantidadProductos = (int) ((Math.random() * 25)+1);
         int tipo;
         for (int i = 0; i < cantidadProductos; i++) {
             tipo = (int) (Math.random() * 3) + 1;
